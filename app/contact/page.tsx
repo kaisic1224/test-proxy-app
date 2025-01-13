@@ -1,3 +1,5 @@
+'use client'
+
 export default async function ContactPage() {
   const data = await fetch("http://swapi.dev/api/people/2");
   const json = await data.json();
